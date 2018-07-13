@@ -1,2 +1,2 @@
 # React Modals
-Implementing React modals via portals
+Implementing modals in React via [portals](https://reactjs.org/docs/portals.html).

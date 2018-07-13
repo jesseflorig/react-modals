@@ -4,11 +4,6 @@ import ReactDom from 'react-dom'
 const modalRoot = document.getElementById('modal-root')
 
 class Modal extends Component {
-  constructor(props) {
-    super(props)
-    this.overlay = document.createElement('div')
-  }
-
   render() {
     return this.props.visible ? ReactDom.createPortal(
       (
