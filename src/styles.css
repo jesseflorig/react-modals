@@ -1,0 +1,56 @@
+.App {
+  display: inline-block;
+  font-family: sans-serif;
+  text-align: center;
+  background-color: lightblue;
+  padding: 1em;
+  overflow: hidden;
+}
+
+#modal-root {
+  position: relative;
+  z-index: 999;
+}
+
+.modal {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-container {
+  background-color: #fff;
+  box-shadow: 2px 2px 4px rgba(0,0,0,.4);
+  border-radius: 2px;
+  padding: 0 .5em .5em;
+  z-index: 999;
+}
+
+.modal-header {
+  position: relative;
+}
+
+.modal-footer {
+  text-align: center;
+  color: #666;
+}
+
+.close-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.modal-overlay {
+  background-color: rgba(0,0,0,0.2);
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
